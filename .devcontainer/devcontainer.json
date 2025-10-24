@@ -3,9 +3,6 @@
   "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm",
   
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "20"
-    },
     "ghcr.io/devcontainers/features/git:1": {}
   },
 
@@ -26,10 +23,7 @@
         "editor.codeActionsOnSave": {
           "source.fixAll.eslint": "explicit"
         },
-        "typescript.tsdk": "node_modules/typescript/lib",
-        "tailwindCSS.experimental.classRegex": [
-          ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
-        ]
+        "typescript.tsdk": "node_modules/typescript/lib"
       }
     }
   },
